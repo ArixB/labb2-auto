@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1384d-6d31-47a1-8692-70cc4854a018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/createAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/signIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCase/createAccountCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCase/runAllTheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCase/signInCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/prestashop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/prestashopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +67,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.createAccountCase.createAccountTest">
+  <component name="RunManager" selected="JUnit.prestashopTest">
     <configuration name="runAllTheTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testCase.runAllTheTest" />
       <module name="Labb2PrestaShop" />
@@ -103,6 +97,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="prestashopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labb2PrestaShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="prestashopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="signInCase.signInTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Labb2PrestaShop" />
       <extension name="coverage">
@@ -121,8 +124,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.createAccountCase.createAccountTest" />
+        <item itemvalue="JUnit.prestashopTest" />
         <item itemvalue="Application.runAllTheTest" />
+        <item itemvalue="JUnit.createAccountCase.createAccountTest" />
         <item itemvalue="JUnit.signInCase.signInTest" />
       </list>
     </recent_temporary>
@@ -139,7 +143,8 @@
       <updated>1584302853373</updated>
       <workItem from="1584302858149" duration="2201000" />
       <workItem from="1584372236482" duration="2842000" />
-      <workItem from="1584391649527" duration="2440000" />
+      <workItem from="1584391649527" duration="3372000" />
+      <workItem from="1584431727607" duration="945000" />
     </task>
     <servers />
   </component>
@@ -154,22 +159,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1584391672269" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584394140500">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584396615787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584394140500" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584394140500">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584396615787" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584396615787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584394140500" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584394140500">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584396615787" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584396615787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584394140500" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584394140500">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584396615787" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584396615787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584394140500" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584396615787" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1584431745990">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584431745990" />
     <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584394188913">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
