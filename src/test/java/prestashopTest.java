@@ -51,7 +51,7 @@ public class prestashopTest {
 
     }
 
-    // som en kund vill jag kunna lägga
+    // som en kund vill jag kunna lägga varor i kundvagn
     @Test
     public void addItemToCart(){
         /*driver.switchTo().frame("framelive");
